@@ -1,6 +1,6 @@
 // need to use jquery to get json from a different url
 $.getJSON({
-    url: "https://raw.githubusercontent.com/ValeriiaShur/d3-russia-subjects/master/russia-subjects.json",
+    url: "https://raw.githubusercontent.com/ValeriiaShur/d3-russia-subjects/master/data/russia-subjects.json",
     success: makeMap
 });
 
